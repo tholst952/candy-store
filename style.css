@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* Colors Used */
+#f3eae8 #f2c78c #f49fa6 #887674 #340c0a * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2c78c;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 830px;
+  margin: 20px auto;
+}
+.candy {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.candy-title,
+.printClick {
+  background-color: #f49fa6;
+  color: #f3eae8;
+  font-size: 42px;
+  /* text-transform: uppercase; */
+  text-align: center;
+  padding: 20px;
+}
+
+.item-clicked {
+  color: #340c0a;
+}
+
+.candy-clicked {
+  background-color: #887674;
+  color: #f3eae8;
+}
+
+.candy-container {
+  display: grid;
+  width: 800px;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 10px;
+}
+
+/* .hersheys {
+  grid-column: 1/2;
+  grid-row: 1/2;
+} */
